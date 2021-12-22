@@ -22,6 +22,7 @@ public class DatabaseLoader implements ApplicationRunner {
     @Autowired
     private final PostRepository postRepository;
 
+    @Autowired
     public DatabaseLoader(PostRepository postRepository) {
         this.postRepository = postRepository;
     }
